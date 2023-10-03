@@ -4,8 +4,14 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 img { 
-width: 300px;
+width: 80px;
 height: auto;
+border-style: solid none;
+border-width: 6px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 400px;
+padding-right: 400px;
 }
 
 button{
@@ -21,10 +27,30 @@ button:hover {
     background-color: black;
 }
 
-div {
-    font-size: 30px;
-}
 
 h1 {
     margin: 60px;
+    font-size: 100px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h5 {
+    font-size: 12px;
+
+}
+
+h6 {
+    font-size: 12px;
+}
+
+#letterform-character {
+    font-size: 300px;
+}
+
+#container {
+    width: 1024;
+    margin: 0 auto;
+
 }
