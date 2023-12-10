@@ -1,0 +1,34 @@
+/* This is the main css stylesheet for tysonlm.github.io/project-2 site */
+
+/*********** Typography*/
+:root {
+    --sans:'Comfortaa', sans-serif;;
+}
+
+/*********** Color */
+
+/*********** Navigation */
+
+/******* Layout */
+
+section {
+    width:90vw;
+    height: 5vh;
+    padding:60px;
+}
+
+#first-section {
+    background-color: C74B4B;
+    font-family: var(--sans);
+    text-align: right;
+}
+
+#second-section {
+ font-family: var(--sans);
+}
+
+#third-section {
+    font-family: var(--sans);
+}
+
+
